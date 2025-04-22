@@ -1,1 +1,41 @@
 /* your code */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.stats-table {
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stats-table thead {
+  background-color: #21567c;
+  color: white;
+}
+
+.stats-table thead th {
+  padding: 16px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.stats-table tbody tr {
+  background-color: white;
+}
+
+.stats-table tbody tr:nth-child(even) {
+  background-color: #e0e0e0;
+}
+
+.stats-table tbody td {
+  padding: 16px;
+  color: #333;
+}
